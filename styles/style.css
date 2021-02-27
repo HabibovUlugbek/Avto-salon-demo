@@ -1,0 +1,194 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    background: url(../img/6.jpg) no-repeat center top fixed ;
+}
+.cf::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.wrapper{
+    padding: 0 60px;
+    position: relative;
+}
+img{
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    height: 70px;
+    border: none;
+    margin: 30px 0;
+    background: url(../img/hr.png) no-repeat center center / contain ;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px 0 ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-content{
+    background: white;
+}
+/*===================
+ SITE MENU 
+ ====================*/
+ .site-menu{
+     width: 880px;
+     margin: 0 auto;
+     transform: translateY(-50%);
+     background: white;
+     box-shadow: 0 9px 18px 0 rgba(0, 0, 0,.1);
+ }
+ .sitemenu__ul{
+     padding: 0;
+     margin: 0 ;
+     list-style-type: none;
+ }
+ .sitemenu__li{
+     float: left;
+     width: 25%;
+     text-align: center;
+ }
+ .sitemenu__li + .sitemenu__li{  border-left: 1px solid #222222;}
+ .sitemenu__link{
+     color: #222222;
+     text-decoration: none;
+     display: block;
+     padding: 15px;
+     font-weight: bold;
+     transition: all ease .5s;
+ }
+ .sitemenu__link:hover{
+     background-color: #222222;
+     color: orange;
+ }
+ /* ===============
+ WELCOME 
+ ==================*/
+ .welcome-area{
+     padding: 30px 0 50px ;
+ 
+ }
+ .welcome-img{
+     width: 35%;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+ .welcome-text{
+     float: right;
+     width: 60%;
+     text-align: center;
+     padding: 0 50px;
+     font-weight: bold;
+     font-style: italic;
+ }
+ /* =================
+  TAKLIFLAR
+ ==================== */
+ .opportu{
+     float: left;
+     width: calc((100% - 100px ) / 3);
+ }
+ .opportu+.opportu{
+     margin-left: 50px;
+ }
+ .taklif-title{
+     color: gold;
+     font-size: 2.5rem;
+     margin-right: 10px;
+ }
+ /* ===============
+ MENYU
+ ================== */
+ .menyu{
+     height: 150px;
+     background: url(../img/menu_03.jpg) no-repeat center center / cover;
+ }
+ .menyu-wrap{
+     box-shadow: 0 9px 18px 0 rgba(0, 0, 0,.3);
+     margin-top: 40px;
+     margin-bottom: 20px;
+     position: relative;
+ }
+ .menyu-text{
+     width: 60%;
+     float: left;
+     padding: 0 15px;
+ }
+ .menyu-img{
+     width: 35%;
+     float: right; 
+ }
+ .two .menyu-text{
+     float: right;
+ }
+ .two .menyu-img{
+     float: left;
+ }
+ .costs{
+     text-align: center;
+     font-size: 2rem;
+ }
+ table , td {
+     border: 2px solid #222222;
+     border-collapse: collapse;
+ }
+ table , .connect{
+     width: 600px;
+     margin: 30px auto;
+ }
+ td{
+     width: 100%;
+ }
+ .name ,.narx{
+     display: inline-block;
+     padding: 0 10px;
+ }
+ .narx{
+     padding-right: 5px;
+     font-weight: bold;
+     float: right;
+ }
+ .nishon{
+     font-weight: bold;
+     display: block;
+     font-size: 20px;
+ }
+ .input{
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0 15px;
+ }
+ .send{
+     font-weight: bold;
+     font-size: 1.1rem;
+     cursor: pointer;
+     width: 100%;
+     padding:10px;
+     background-color: goldenrod;
+     margin: 10px 0 ;
+ }
+
